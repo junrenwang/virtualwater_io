@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cook!</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+	<div id="container">
+		<div id="game-field" class="col-sm-12">
+			<canvas id="the-canvas" >
+				<!-- our drawing will go here -->
+			</canvas>
+			<div id="score-wrapper" class="hiddenOnStart" hidden>
+				<div>Order: <span class="player-score">0</span></div>
+			</div>
+            <div id="instruction-wrapper" class="hiddenOnStart" hidden>
+				<div class="alert alert-primary" id="instruct" role="alert">
+                    "Keep Going!"
+                </div>
+			</div>
+
+            <div id="order-wrapper" class="hiddenOnStart" hidden>
+				<div class="alert alert-warning"  role="alert">
+                    <div><span id = "order">"Let's start!"</span></div>
+                </div>
+			</div>
+            
+            <div id="watercapacity-wrapper" class="hiddenOnStart" hidden>
+                <div>Water capacity: <span class="player-watercapacity">50</span></div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+			</div>
+			<div id="leader-board-wrapper" class="hiddenOnStart" hidden>
+				<div id="leader-board">
+					<h3 class="text-center">Leaders</h3>
+					<hr>
+					<ol class="leader-board">
+						<li class="leaderboard-player"></li>
+					</ol>
+					<hr>
+				</div>
+				<div id="sort-wrapper">
+					<div id="sort-header" class="text-center">SORT BY</div>
+					<div id="sort-order" class="sort-option active">Order</div>
+					<div id="sort-wc" class="sort-option">Water Capacity</div>
+				</div>
+			</div>
+			<div id="game-message-wrapper">
+				<div id="game-message">{{gameMessage}}</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- Modals -->
+    <!-- LOGIN MODAL -->
+    <div id="loginModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cook!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="name-form">
+						<div class="text-center error-message"></div>
+						<button type="submit" class="btn play-button play-guest">Play as Guest</button>
+						<input id="name-input" class="text-input text-center form-control" type="text" name="name-input" placeholder="Enter your name here" required>
+					</form>
+                </div>
+                <div class="modal-footer">
+					<div id="instructions">
+						<label id="how-to-play">How to play:</label>
+						<ul>
+							<li>Move your mouse on the screen to move your character.</li>
+							<li>Absorb corresponding types of items by running over them to fulfill the orders.</li>
+                            <li>The order will last for 15 seconds unless any of the players serves the order.</li>
+							<li>The larger the item, the more water you need to consume to obtain it.</li>
+							<li>Objective: Serve as many orders as possible without running out of your water capacity.</li>
+                            <li>Winner: The player who finishes 10 orders first wins. Otherwise, the player who finishes more orders when all players run out of water capacity wins.</li>
+						</ul>
+					</div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- START MODAL -->
+    <div id="spawnModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Cook!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center">Hello, <span class="player-name"></span>!</h3>
+                <div class="play-btn-wrapper">
+                    <button id="join-team-btn" type="button" class="btn play-button start-multi-player-game">Play with friends!</button>
+                    <button id="play-solo-btn" type="button" class="btn play-button start-game">Play Solo!</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div id="instructions">
+                    <label id="how-to-play">How to play:</label>
+                    <ul>
+                        <li>Move your mouse on the screen to move your character.</li>
+                        <li>Absorb corresponding types of items by running over them to fulfill the orders.</li>
+                        <li>The order will last for 15 seconds unless any of the players serves the order.</li>
+                        <li>The larger the item, the more water you need to consume to obtain it.</li>
+                        <li>Objective: Serve as many orders as possible without running out of your water capacity.</li>
+                        <li>Winner: The player who finishes 10 orders first wins. Otherwise, the player who finishes more orders when all players run out of water capacity wins.</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>    
+    <script src="/startGame.js"></script>
+    <script src="/canvas.js"></script>
+    <script src="/socketClient.js"></script>
+</body>
+</html>
