@@ -1,4 +1,4 @@
-const socket = io.connect();
+let socket = io.connect();
 
 const init = async()=>{
     //init is called inside of start-game click listener
