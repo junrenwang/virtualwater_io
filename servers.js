@@ -6,7 +6,8 @@ const expressServer = app.listen(9000);
 const socketio = require('socket.io');
 const io = socketio(expressServer,{
     cors: {
-        origin: ['http://localhost:3030'],
+        // origin: ['http://localhost:3030'],
+        origin: [],
         credentials: true,
     }
 });
