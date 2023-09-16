@@ -26,27 +26,14 @@ window.addEventListener('load',()=>{
 document.querySelector('.name-form').addEventListener('submit',(e)=>{
     e.preventDefault();
     player.name = document.querySelector('#name-input').value;
+    player.room = document.querySelector('#room-input').value;
     document.querySelector('.player-name').innerHTML = player.name
     loginModal.hide();
-    spawnModal.show();
-})
-
-document.querySelector('.start-game').addEventListener('click',(e)=>{
-    //hide the start modal
-    spawnModal.hide();
-    //show the hiddenOnStart elements
+    // spawnModal.show();
     const elArray = Array.from(document.querySelectorAll('.hiddenOnStart'))
     elArray.forEach(el=>el.removeAttribute('hidden'))
     init(); //init is iniside of socketClient.js
 })
 
 
-document.querySelector('.start-multi-player-game').addEventListener('click', (e)=>{
-    //hide the start modal
-    spawnModal.hide();
-    //show the hiddenOnStart elements
-    const elArray = Array.from(document.querySelectorAll('.hiddenOnStart'))
-    elArray.forEach(el=>el.removeAttribute('hidden'))
-    //init the socketClient.js
-    init();
-})
+

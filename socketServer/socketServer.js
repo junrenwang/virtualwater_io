@@ -35,14 +35,16 @@ const players = [];
 const playersForUsers = [];
 let tickTockInterval;
 let currentorder;
+let playerRoom = "game";
 
 initGame()
 
 io.on('connect',(socket)=>{
     // a player has connected
     let player = {};
-    socket.on('init',(playerObj,ackCallback)=>{
+    socket.on('init',(playerObj, ackCallback)=>{
 
+        playerRoom = playerObj.playerRoom
         if(players.length === 0){ //someone is about to be added to players. Start tick-tocking
             //tick-tock - issue an event to EVERY connected socket, that is playing the game, 30 times per second
             tickTockInterval = setInterval(()=>{
@@ -50,12 +52,12 @@ io.on('connect',(socket)=>{
                 if(currentorder.duration<0){
                     currentorder = new orderClass(settings);
                 }
-                io.to('game').emit('tick',playersForUsers, currentorder) // send the event to the "game" room
+                io.to(playerRoom).emit('tick',playersForUsers, currentorder) // send the event to the "game" room
                 
             },33) //1000/30 = 33.33333, there are 33, 30's in 1000 milliseconds, 1/30th of a second, or 1 of 30fps 
         }
         
-        socket.join('game'); //add this socket to "game" room
+        socket.join(playerRoom); //add this socket to "game" room
         //event that runs on join that does init game stuff
         // make a playerConfig object - the data specific to this player that only the player needs to know
         const playerName = playerObj.playerName;
@@ -103,14 +105,14 @@ io.on('connect',(socket)=>{
             }
             //emit to all sockets playing the game, the orbSwitch event so it can update orbs... just the new orb
             
-            io.to('game').emit('itemSwitch',itemData);
+            io.to(playerRoom).emit('itemSwitch',itemData);
             if(fillorderstatus){
                 currentorder = new orderClass(settings);
-                io.to('game').emit('updateOrder', currentorder);
+                io.to(playerRoom).emit('updateOrder', currentorder);
             }
             
             //emit to all sockets playing the game, the updateLeaderBoard event because someone just scored
-            io.to('game').emit('updateLeaderBoard',getLeaderBoard());
+            io.to(playerRoom).emit('updateLeaderBoard',getLeaderBoard());
 
         }
 
