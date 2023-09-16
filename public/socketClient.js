@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:9000');
+const socket = io.connect();
 
 const init = async()=>{
     //init is called inside of start-game click listener
