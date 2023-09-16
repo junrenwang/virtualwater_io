@@ -35,5 +35,3 @@ document.querySelector('.name-form').addEventListener('submit',(e)=>{
     init(); //init is iniside of socketClient.js
 })
 
-
-
