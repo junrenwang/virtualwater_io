@@ -62,7 +62,7 @@ socket.on('updateLeaderBoard',leaderBoardArray=>{
     })
     if (leaderBoardArray.sort((a,b)=>{
         return b.wc - a.wc;
-    })[0].wc == 0){
+    })[0].wc <= 0){
         p = leaderBoardArray.sort((a,b)=>{
             return b.score - a.score;
         })[0]

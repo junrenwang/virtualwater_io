@@ -32,6 +32,12 @@ const draw = ()=>{
         context.lineWidth = 3; //how wide to draw a line in pixels
         context.strokeStyle = 'rgb(0,255,0)' // draw a green line
         context.stroke() //draw the line (border)
+        context.beginPath();
+        context.font = "bold 20px Courier";
+        context.fillStyle = "black";
+        context.textAlign = "center";
+        context.fillText("@"+p.playerData.name, p.playerData.locX, p.playerData.locY-10);
+        context.fill();
     }) 
 
     //draw all the orbs
