@@ -55,7 +55,7 @@ const draw = ()=>{
         context.font = "bold 20px Courier";
         context.fillStyle = "red";
         context.textAlign = "center";
-        context.fillText(item.wc, item.locX, item.locY+8);
+        context.fillText(item.wc, item.locX, item.locY+10);
         context.fill();
     })
 

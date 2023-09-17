@@ -8,8 +8,8 @@ class item{
         this.wc = (wc/1000).toFixed(2)
         this.color = color 
         this.radius = radius**1.5
-        this.locX = Math.floor((Math.random()* (0.8 - 0.2) + 0.2) * settings.worldWidth)
-        this.locY = Math.floor((Math.random()* (0.8 - 0.2) + 0.2)  * settings.worldHeight) 
+        this.locX = Math.floor((Math.random()* (0.9 - 0.1) + 0.1) * settings.worldWidth)
+        this.locY = Math.floor((Math.random()* (0.9 - 0.1) + 0.1)  * settings.worldHeight) 
     }
 
     getRandomItem(){

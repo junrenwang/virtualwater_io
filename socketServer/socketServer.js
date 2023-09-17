@@ -26,8 +26,8 @@ const settings = {
     defaultSpeed: 6, //player speed
     defaultSize: 6, //default player speed
     defaultZoom: 1.5, // as the player gets bigger, zoom needs to go out
-    worldWidth: 1000,
-    worldHeight: 1000,
+    worldWidth: 1400,
+    worldHeight: 750,
     defaultGenericOrbSize: 5, //smaller than player orbs
     orderDuration: 15
 }
@@ -121,7 +121,7 @@ io.on('connect',(socket)=>{
     })
 
     socket.on('disconnect',(reason)=>{
-        // console.log(reason)
+        console.log(reason)
         //loop through players and find the player with THIS players socketId
         //and splice that player out
         for(let i = 0; i < players.length; i++){

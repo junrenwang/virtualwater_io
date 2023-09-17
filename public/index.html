@@ -71,13 +71,16 @@
                 <div class="modal-footer">
 					<div id="instructions">
 						<label id="how-to-play">How to play:</label>
-						<ul>
-							<li>Move your mouse on the screen to move your character.</li>
+						<ul style="font-size: 15px;">
+                            <li>Objective: Serve as many orders as possible without running out of your water capacity.</li>
+                            <li>Winner: The player who complete <b>10</b> orders first wins. Otherwise, the player who finishes more orders when all players run out of water capacity wins.</li>
+							<li>Each player has <b>50</b> metric ton of water to start, and the number on the circle indicates how many metric ton of virtual water is needed to produce <b>1 kg</b> of that commodity</li>
+                        </ul>
+                        <ul style="font-size: 10px;">
+                            <li>Move your mouse on the screen to move your character.</li>
 							<li>Absorb corresponding types of items by running over them to fulfill the orders.</li>
                             <li>The order will last for 15 seconds unless any of the players serves the order.</li>
 							<li>The larger the item, the more water you need to consume to obtain it.</li>
-							<li>Objective: Serve as many orders as possible without running out of your water capacity.</li>
-                            <li>Winner: The player who finishes 10 orders first wins. Otherwise, the player who finishes more orders when all players run out of water capacity wins.</li>
 						</ul>
 					</div>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -91,33 +94,26 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Cook!</h5>
+              <h5 class="modal-title">Virtual Water Play!</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <h3 class="text-center">Hello, <span class="player-name"></span>!</h3>
+                <h3 class="text-center" id = "result-text"></span></h3>
                 <div class="play-btn-wrapper">
-                    <button id="join-team-btn" type="button" class="btn play-button start-multi-player-game">Play with friends!</button>
-                    <button id="play-solo-btn" type="button" class="btn play-button start-game">Play Solo!</button>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <div id="instructions">
-                    <label id="how-to-play">How to play:</label>
-                    <ul>
-                        <li>Move your mouse on the screen to move your character.</li>
-                        <li>Absorb corresponding types of items by running over them to fulfill the orders.</li>
-                        <li>The order will last for 15 seconds unless any of the players serves the order.</li>
-                        <li>The larger the item, the more water you need to consume to obtain it.</li>
-                        <li>Objective: Serve as many orders as possible without running out of your water capacity.</li>
-                        <li>Winner: The player who finishes 10 orders first wins. Otherwise, the player who finishes more orders when all players run out of water capacity wins.</li>
-                    </ul>
+                    <button id="join-team-btn" type="button" class="btn play-button start-multi-player-game" onclick="refreshPage()">Play Again!</button>
                 </div>
             </div>
           </div>
         </div> 
       </div>    
 
+    <script>
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
+    
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>    
     <script src="/startGame.js"></script>

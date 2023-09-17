@@ -1,5 +1,5 @@
-const socket = io.connect('http://localhost:9000');
-// const socket = io.connect();
+// const socket = io.connect('http://localhost:9000');
+const socket = io.connect();
 const init = async()=>{
     //init is called inside of start-game click listener
     const initData = await socket.emitWithAck('init',{
@@ -53,9 +53,25 @@ socket.on('updateLeaderBoard',leaderBoardArray=>{
 
     leaderBoardArray.forEach(p=>{
         if(p.score== 10){
+            document.getElementById("result-text").innerHTML = `The winner is ${p.name}`
             spawnModal.show();
+
+            socket.disconnect();
+
         }
     })
+    if (leaderBoardArray.sort((a,b)=>{
+        return b.wc - a.wc;
+    })[0].wc == 0){
+        p = leaderBoardArray.sort((a,b)=>{
+            return b.score - a.score;
+        })[0]
+        document.getElementById("result-text").innerHTML = `All players have run out of water! The winner is ${p.name}. The winner completed ${p.score} orders!`
+        spawnModal.show();
+
+        socket.disconnect();
+
+    }
  
     if (document.getElementById("sort-order").classList.contains('active')){
         leaderBoardArray.sort((a,b)=>{
