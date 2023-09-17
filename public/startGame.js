@@ -29,7 +29,7 @@ document.querySelector('.name-form').addEventListener('submit',(e)=>{
     player.room = document.querySelector('#room-input').value;
     document.querySelector('.player-name').innerHTML = player.name
     loginModal.hide();
-    // spawnModal.show();
+  
     const elArray = Array.from(document.querySelectorAll('.hiddenOnStart'))
     elArray.forEach(el=>el.removeAttribute('hidden'))
     init(); //init is iniside of socketClient.js

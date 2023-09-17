@@ -49,7 +49,14 @@ socket.on('updateOrder',currentorder=>{
 
 
 socket.on('updateLeaderBoard',leaderBoardArray=>{
-    // console.log(leaderBoardArray)
+    // if anyone firstly finish 10 orders or all people run out of water show the winner page
+
+    leaderBoardArray.forEach(p=>{
+        if(p.score== 10){
+            spawnModal.show();
+        }
+    })
+ 
     if (document.getElementById("sort-order").classList.contains('active')){
         leaderBoardArray.sort((a,b)=>{
             return b.score - a.score;
@@ -137,7 +144,12 @@ socket.on('updateLeaderBoard',leaderBoardArray=>{
     document.querySelector('.player-watercapacity').innerHTML = (el.wc).toFixed(2)
     document.querySelector('.progress-bar').style.width = (el.wc/50*100).toFixed(2) + "%";
 
-    document.getElementById('instruct').innerHTML = el.instruct
+    document.querySelector('#game-message').innerHTML = el.instruct
+    document.querySelector('#game-message').style.opacity = 1;
+    window.setTimeout(()=>{
+        document.querySelector('#game-message').style.opacity = 0;
+    },2000)
+   
 
 })
 
