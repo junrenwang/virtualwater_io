@@ -1158,7 +1158,7 @@ const itemList = [
     },
     {
       category: "CROPS",
-      name: "maize gree ",
+      name: "maize green ",
       wc: "700"
     },
     {
