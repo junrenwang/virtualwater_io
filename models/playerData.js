@@ -3,8 +3,8 @@
 class playerData{
     constructor(playerName,settings){
         this.name = playerName;
-        this.locX = Math.floor((Math.random()* (0.8 - 0.2) + 0.2) * settings.worldWidth + 10); // horizontal axis
-        this.locY = Math.floor((Math.random()* (0.8 - 0.2) + 0.2) * settings.worldWidth + 10); // vertical axis
+        this.locX = Math.floor(0.2 * settings.worldWidth - 10); // horizontal axis
+        this.locY = Math.floor(0.2* settings.worldWidth - 10); // vertical axis
         this.radius = settings.defaultSize;
         this.color = this.getRandomColor();
         this.score = 0;

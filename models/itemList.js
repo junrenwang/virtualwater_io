@@ -3,1602 +3,1574 @@ const itemList = [
 
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "APPLE JUICE",
+      name: "apple juice",
       wc: "1140"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BARLEY FLAKES",
+      name: "barley flakes",
       wc: "1977"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BEANS (F)",
+      name: "beans",
       wc: "801"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BEER*",
+      name: "beer",
       wc: "155"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BEET SUGAR",
+      name: "beet sugar",
       wc: "865"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BREAD",
+      name: "bread",
       wc: "667"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BREAD MULTICEREAL**",
+      name: "bread multicereal",
       wc: "771"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BREAD PLAIN**",
+      name: "bread plain",
       wc: "1031"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "BREAD WHOLE**",
+      name: "bread whole",
       wc: "887"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CAKES AND CROISSANT**",
+      name: "cake an croissant",
       wc: "1640"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CANE MOLASSE",
+      name: "cane molasse",
       wc: "527"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CANE SUGAR",
+      name: "cane sugar",
       wc: "1724"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CASSAVA FLOUR",
+      name: "cassava flour",
       wc: "1878"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CHOCOLATE",
+      name: "chocolate",
       wc: "17196"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CHOCOLATE OR CREAM FILLED COOKIES**",
+      name: "chocolate cookie",
       wc: "2902"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COCOA BUTTER",
+      name: "cocoa butter",
       wc: "33938"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COCOA CAKES AND CROISSANT**",
+      name: "cocoa cakes",
       wc: "3468"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COCOA PASTE",
+      name: "cocoa paste",
       wc: "24238"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COCOA POWDER",
+      name: "cocoa powder",
       wc: "15618"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COCONUT OIL",
+      name: "coconut oil",
       wc: "4490"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COFFEE ROASTED",
+      name: "coffee roasted",
       wc: "19956"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COFFEE SOLUBLE",
+      name: "coffee soluble",
       wc: "640"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COFFEE STANDARD",
+      name: "coffee standard",
       wc: "1120"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COFFEE STRONG",
+      name: "coffee strong",
       wc: "1600"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "COFFEE WEAK",
+      name: "coffee weak",
       wc: "800"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CORN CANNED",
+      name: "corn canned",
       wc: "807"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "CRISPBREAD**",
+      name: "crispbread",
       wc: "1423"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "DRIED CASSAVA",
+      name: "dried cassava",
       wc: "1610"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "EGG PASTA*",
+      name: "egg pasta",
       wc: "4637"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "FLAVORED CRACKERS**",
+      name: "flavored crackers",
       wc: "1378"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "FRUCTOSE",
+      name: "fructose",
       wc: "1782"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "GRAPEFRUIT JUICE",
+      name: "grapefruite juice",
       wc: "675"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "KETCHUP",
+      name: "ketchup",
       wc: "534"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "LINSEED OIL",
+      name: "linseed oil",
       wc: "9415"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MAIZE FLOUR & MEAL",
+      name: "maize flour",
       wc: "1167"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MAIZE GROATS",
+      name: "maize groats",
       wc: "1081"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MAIZE HULLED, PEARLED, SLICED OR KIBBLED",
+      name: "maize sliced",
       wc: "1314"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MAIZE OIL",
+      name: "maize oil",
       wc: "2575"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MAIZE STARCH",
+      name: "maize starch",
       wc: "1671"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MALT",
+      name: "malt",
       wc: "1950"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MALT, ROASTED",
+      name: "malt, roasted",
       wc: "2437"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MANIOC (CASSAVA) STARCH",
+      name: "cassava starch",
       wc: "2254"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MARGARINE*",
+      name: "margarine",
       wc: "1324"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "MIXED VEGETABLES (F)",
+      name: "mixed vegatables",
       wc: "339"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "OAT FLAKES",
+      name: "oat flakes",
       wc: "2416"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "OAT GROATS",
+      name: "oat groats",
       wc: "2536"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "OAT MEAL",
+      name: "oat meal",
       wc: "2536"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "OLIVE OIL",
+      name: "olive oil",
       wc: "14415"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "OLIVE OIL REFINED",
+      name: "olive oil refined",
       wc: "14726"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "ORANGE JUICE",
+      name: "orange juice",
       wc: "1019"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PALM OIL",
+      name: "palm oil",
       wc: "4971"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PASTA*",
+      name: "pasta",
       wc: "1508"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PEANUT OIL",
+      name: "peanut oil",
       wc: "7529"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PEAS (F)",
+      name: "peas",
       wc: "850"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PESTO",
+      name: "pesto",
       wc: "2099"
     },
+
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PESTO WITHOUT GARLIC",
-      wc: "2249"
-    },
-    {
-      category: "AGRICULTURAL PROCESSED",
-      name: "PINEAPPLE JUICE",
+      name: "pineaple juice",
       wc: "1273"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "PLAIN CRACKERS**",
+      name: "plain crackers",
       wc: "1447"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "POTATO FLAKES",
+      name: "potato flakes",
       wc: "1044"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "POTATO FLOUR & MEAL",
+      name: "potato flour",
       wc: "1436"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "POTATO STARCH",
+      name: "potato starch",
       wc: "1512"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "POTATOES (F)",
+      name: "potato",
       wc: "575"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "QUORNE",
+      name: "quorne",
       wc: "2000"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "RAPESEED OIL",
+      name: "rapeseed oil",
       wc: "4301"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "RICE FLOUR & MEAL",
+      name: "rice flour",
       wc: "2429"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "RICE GROATS",
+      name: "rice groat",
       wc: "2230"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "RYE FLOUR",
+      name: "rye flour",
       wc: "1930"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SESAM OIL",
+      name: "sesame oil",
       wc: "21793"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SIMPLE COOKIES**",
+      name: "simple cookie",
       wc: "1723"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOY BURGER",
+      name: "soy burger",
       wc: "1053"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOY MILK*",
+      name: "soy milk",
       wc: "2030"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOY PASTE",
+      name: "soy paste",
       wc: "572"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOY SAUCE",
+      name: "soy sauce",
       wc: "613"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOYBEAN FLOUR",
+      name: "soybean flour",
       wc: "2523"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SOYBEAN OIL",
+      name: "soybean oil",
       wc: "4190"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SPINACH (F)",
+      name: "spinach",
       wc: "834"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SUNFLOWER OIL",
+      name: "sunflower oil",
       wc: "6792"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "SWEET CORN (F)",
+      name: "sweet corn",
       wc: "700"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TAPIOCA OF CASSAVA",
+      name: "tapioca of cassava",
       wc: "2818"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TAPIOCA OF POTATOES",
+      name: "tapioca of potatos",
       wc: "1436"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOFU",
+      name: "tofu",
       wc: "1724.5"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO & BASIL",
+      name: "tomato",
       wc: "147"
     },
+
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO ARRABBIATA",
-      wc: "155"
-    },
-    {
-      category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO JUICE",
+      name: "tomato juice",
       wc: "267"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO JUICE CONCENTRATED*",
+      name: "tomato juice concentrated",
       wc: "1069"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO PASTE",
+      name: "tomato paste",
       wc: "855"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO PEELED",
+      name: "tomato peeled",
       wc: "267"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "TOMATO PUREE",
+      name: "tomato puree",
       wc: "713"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WHEAT FLOUR",
+      name: "wheat flour",
       wc: "1849"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WHEAT GLUTEN",
+      name: "wheat gluten",
       wc: "4189"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WHEAT PELLETS",
+      name: "wheat pellets",
       wc: "2036"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WHEAT STARCH",
+      name: "wheat starch",
       wc: "1436"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WHOLEGRAIN CRACKERS**",
+      name: "wholegrain crackers",
       wc: "617"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "WINE*",
+      name: "wine",
       wc: "524"
     },
     {
       category: "AGRICULTURAL PROCESSED",
-      name: "YEAST COMPRESSED*",
+      name: "yeast compressed",
       wc: "51"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "ASS MEAT",
+      name: "ass meat",
       wc: "50274"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "ASS OFFAL",
+      name: "ass offal ",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BACON",
+      name: "bacon",
       wc: "6116"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BEEF BONE FREE MEAT*",
+      name: "beef bone",
       wc: "15139"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BEEF CURED MEAT",
+      name: "beef cured meat",
       wc: "23799"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BEEF LIVER",
+      name: "beef liver",
       wc: "7746"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BEEF MEAT WITH BONE",
+      name: "beef meat with bone",
       wc: "10943"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BEEF OFFAL",
+      name: "beef offal",
       wc: "11155"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BUTTER*",
+      name: "butter",
       wc: "5659"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "BUTTERED MILK",
+      name: "buttered milk",
       wc: "1599"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CHEESE",
+      name: "cheese",
       wc: "5253"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CHEESE BLUE-VEINED",
+      name: "cheese blue-veined",
       wc: "5060"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CHEESE GRATED",
+      name: "cheese grated",
       wc: "5060"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CHICKEN BONE FREE MEAT",
+      name: "chicken bone",
       wc: "3960"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CHICKEN MEAT WITH BONE*",
+      name: "chicken meat",
       wc: "3330"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "COW MILK",
+      name: "cow milk",
       wc: "1260.5"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CREAM",
+      name: "cream",
       wc: "3838"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CURED HAM BONE FREE",
+      name: "cured ham bone free",
       wc: "9850"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CURED HAM WITH BONE",
+      name: "cured ham with bone",
       wc: "5798"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CURED PORK BONE FREE",
+      name: "cured pork bone free",
       wc: "6238"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "CURED SHOULDERS WITH BONE",
+      name: "cured shoulders with bone",
       wc: "5798"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "DUCK BONE FREE MEAT",
+      name: "duck bone free meat",
       wc: "4325"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "EGG YOLKS",
+      name: "egg yolks",
       wc: "3270"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "EGGS",
+      name: "eggs",
       wc: "2562"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "EGGS SHELLED",
+      name: "eggs shelled",
       wc: "3632"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "FRESH HAM WITH BONE",
+      name: "fresh ham with bone",
       wc: "5677"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "FRESH SHOULDERS WITH BONE",
+      name: "fresh shoulders with bone",
       wc: "5677"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "GOAT BONE FREE MEAT*",
+      name: "goat bone free meat",
       wc: "4160"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "GOAT OFFAL",
+      name: "goat offal",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "GOOSE BONE FREE MEAT",
+      name: "goose bone free meat",
       wc: "4325"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "GRAN MORAVIA",
+      name: "gran moravia",
       wc: "2067"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "GUINEA BONE FREE MEAT",
+      name: "guinea bone free meat",
       wc: "4325"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "HARD AND SEMI-HARD CHEESE",
+      name: "hand and semi-hand cheese",
       wc: "12139"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "HINNY MEAT",
+      name: "hinny meat",
       wc: "50274"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "HINNY OFFAL",
+      name: "hinny offal",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "HORSE MEAT",
+      name: "horse meat",
       wc: "50274"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "HORSE OFFAL",
+      name: "horse offal",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "KEPHIR",
+      name: "kephir",
       wc: "1599"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "LAMB BONE FREE MEAT*",
+      name: "lamb bone free meat",
       wc: "10412"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "LAMB MEAT WITH BONE*",
+      name: "lamb meat with bone",
       wc: "4362"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MASCARPONE",
+      name: "mascarpone",
       wc: "6100"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MEALWORMS*",
+      name: "mealworms",
       wc: "4341"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MILK ACID",
+      name: "milk acid",
       wc: "1599"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MILK CREAMY",
+      name: "milk creamy",
       wc: "1898"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MILK POWDER",
+      name: "milk power",
       wc: "4750"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MOZZARELLA",
+      name: "mozzarella",
       wc: "9410"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MULE MEAT",
+      name: "mule meat",
       wc: "50274"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "MULE OFFAL",
+      name: "mule offal",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PARMIGIANO REGGIANO",
+      name: "parmigiano reggiano",
       wc: "10200"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK BONE FREE MEAT*",
+      name: "pork bone free meat",
       wc: "6299"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK CUTS WITH BONE",
+      name: "pork cuts with bone",
       wc: "5798"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK FAT",
+      name: "pork fat",
       wc: "4323"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK LIVER",
+      name: "pork liver",
       wc: "684"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK MEAT WITH BONE",
+      name: "pork meat with bone",
       wc: "4361"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "PORK OFFAL",
+      name: "pork offal",
       wc: "1254"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "POULTRY FAT",
+      name: "poultry fat",
       wc: "4323"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "RICOTTA",
+      name: "ricotta",
       wc: "2470.5"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "SAUSAGES",
+      name: "sausages",
       wc: "15600"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "SHEEP BONE FREE MEAT*",
+      name: "sheep bone free meat",
       wc: "8705"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "SHEEP CARCASSE WITH BONE",
+      name: "sheep carcasse with bone",
       wc: "8310"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "SHEEP CUTS WITH BONE",
+      name: "sheep cuts with bone",
       wc: "8320"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "SHEEP OFFAL",
+      name: "sheep offal",
       wc: "3152"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "STRACCHINO",
+      name: "stracchino",
       wc: "5600"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "TURKEY BONE FREE MEAT",
+      name: "turkey bone free meat",
       wc: "4325"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "YOGURT FLAVORED",
+      name: "yogurt flavored",
       wc: "1659"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "YOGURT WHITE",
+      name: "yogurt white",
       wc: "1540"
     },
     {
       category: "ANIMAL HUSBANDRY",
-      name: "YOGURT WHITE LACTOSE FREE",
+      name: "yogurt white lactose free",
       wc: "1040"
     },
     {
       category: "CROPS",
-      name: "ALMOND SHELLED",
+      name: "almond shelled",
       wc: "16095"
     },
     {
       category: "CROPS",
-      name: "ALMOND WITH SHELL",
+      name: "almond with shell",
       wc: "8047"
     },
     {
       category: "CROPS",
-      name: "ANISE",
+      name: "anise",
       wc: "8280"
     },
     {
       category: "CROPS",
-      name: "APPLE",
+      name: "apple",
       wc: "622"
     },
+ 
     {
       category: "CROPS",
-      name: "APPLES",
-      wc: "6847"
-    },
-    {
-      category: "CROPS",
-      name: "APRICOT",
+      name: "apricot",
       wc: "1287"
     },
     {
       category: "CROPS",
-      name: "ARECA NUT",
+      name: "areca nut",
       wc: "11165"
     },
     {
       category: "CROPS",
-      name: "ARTICHOKE",
+      name: "artichoke",
       wc: "818"
     },
     {
       category: "CROPS",
-      name: "ASPARAGUS* ",
+      name: "asparagus",
       wc: "2150"
     },
     {
       category: "CROPS",
-      name: "AVOCADO",
+      name: "avacado",
       wc: "1805"
     },
+ 
     {
       category: "CROPS",
-      name: "BADIAN",
-      wc: "8280"
-    },
-    {
-      category: "CROPS",
-      name: "BANANA",
+      name: "banana",
       wc: "500"
     },
     {
       category: "CROPS",
-      name: "BARLEY",
+      name: "barley",
       wc: "1423"
     },
     {
       category: "CROPS",
-      name: "BEAN",
+      name: "bean",
       wc: "5053"
     },
     {
       category: "CROPS",
-      name: "BEAN (fresh)",
+      name: "bean(fresh)",
       wc: "516"
     },
     {
       category: "CROPS",
-      name: "BLACK TEA",
+      name: "black tea",
       wc: "8856"
     },
     {
       category: "CROPS",
-      name: "BLACKBERRY",
+      name: "balckberry",
       wc: "413"
     },
     {
       category: "CROPS",
-      name: "BLUEBERRY",
+      name: "blueberry",
       wc: "845"
     },
     {
       category: "CROPS",
-      name: "BRASSICAS",
+      name: "brassicas",
       wc: "280"
     },
     {
       category: "CROPS",
-      name: "BROCCOLI",
+      name: "broccoli",
       wc: "325"
     },
     {
       category: "CROPS",
-      name: "BRUSSEL SPROUT",
+      name: "brussel sprout",
       wc: "285"
     },
     {
       category: "CROPS",
-      name: "CABAGGE",
+      name: "cabagge",
       wc: "280"
     },
     {
       category: "CROPS",
-      name: "CAHSEW APPLE",
+      name: "cashew apple",
       wc: "3793"
     },
     {
       category: "CROPS",
-      name: "CAHSEW NUT",
+      name: "cashew nut",
       wc: "14218"
     },
     {
       category: "CROPS",
-      name: "CARDAMOM",
+      name: "cardamon",
       wc: "34319"
     },
     {
       category: "CROPS",
-      name: "CARROT",
+      name: "carrot",
       wc: "195"
     },
     {
       category: "CROPS",
-      name: "CAULIFLOWER",
+      name: "cauliflower",
       wc: "285"
     },
     {
       category: "CROPS",
-      name: "CHERRY SOUR",
+      name: "cherry sour",
       wc: "1411"
     },
     {
       category: "CROPS",
-      name: "CHERRY SWEET",
+      name: "cherry sweet",
       wc: "1604"
     },
     {
       category: "CROPS",
-      name: "CHESTNUT",
+      name: "chestnut",
       wc: "2750"
     },
     {
       category: "CROPS",
-      name: "CHICKPEA",
+      name: "chickpea",
       wc: "4177"
     },
     {
       category: "CROPS",
-      name: "CHILLY",
+      name: "chilly",
       wc: "7365"
     },
     {
       category: "CROPS",
-      name: "CHILLY FRESH",
+      name: "chilly fresh",
       wc: "379"
     },
     {
       category: "CROPS",
-      name: "CINNAMON",
+      name: "cinnamon",
       wc: "15526"
     },
     {
       category: "CROPS",
-      name: "CITRUS",
+      name: "citrus",
       wc: "457"
     },
     {
       category: "CROPS",
-      name: "CLEMENTINE",
+      name: "clementine",
       wc: "748"
     },
     {
       category: "CROPS",
-      name: "CLOVE",
+      name: "clove",
       wc: "61205"
     },
+
     {
       category: "CROPS",
-      name: "COCONUT",
-      wc: "1971"
-    },
-    {
-      category: "CROPS",
-      name: "COCONUTS",
+      name: "coconuts",
       wc: "2093"
     },
     {
       category: "CROPS",
-      name: "COFFEE BEAN",
+      name: "coffee bean",
       wc: "19928"
     },
     {
       category: "CROPS",
-      name: "COFFEE GREEN",
+      name: "coffee green",
       wc: "15897"
     },
     {
       category: "CROPS",
-      name: "CORIANDER",
+      name: "coriander",
       wc: "8280"
     },
     {
       category: "CROPS",
-      name: "COWPEA",
+      name: "cowpea",
       wc: "6906"
     },
     {
       category: "CROPS",
-      name: "CRANBERRY",
+      name: "cranberry",
       wc: "276"
     },
     {
       category: "CROPS",
-      name: "CUCUMBER",
+      name: "cucumber",
       wc: "353"
     },
     {
       category: "CROPS",
-      name: "CURRANT",
+      name: "currant",
       wc: "499"
     },
     {
       category: "CROPS",
-      name: "DATES",
+      name: "dates",
       wc: "2840"
     },
     {
       category: "CROPS",
-      name: "EGGPLANT",
+      name: "eggplant",
       wc: "362"
     },
     {
       category: "CROPS",
-      name: "FABA BEAN",
+      name: "faba bean",
       wc: "2018"
     },
     {
       category: "CROPS",
-      name: "FENNEL SEEDS",
+      name: "fennel seeds",
       wc: "8280"
     },
     {
       category: "CROPS",
-      name: "FIG",
+      name: "fig",
       wc: "3350"
     },
     {
       category: "CROPS",
-      name: "GARLIC",
+      name: "garlic",
       wc: "589"
     },
     {
       category: "CROPS",
-      name: "GARLIC POWDER",
+      name: "garlic power",
       wc: "2265"
     },
     {
       category: "CROPS",
-      name: "GINGER",
+      name: "ginger",
       wc: "1657"
     },
     {
       category: "CROPS",
-      name: "GOOSEBERRY",
+      name: "gooseberry",
       wc: "526"
     },
     {
       category: "CROPS",
-      name: "GRAPES",
+      name: "grapes",
       wc: "608"
     },
     {
       category: "CROPS",
-      name: "GREEN TEA",
+      name: "green tea",
       wc: "8856"
     },
     {
       category: "CROPS",
-      name: "GUAVA",
+      name: "guava",
       wc: "1800"
     },
     {
       category: "CROPS",
-      name: "HAZELNUT SHELLED",
+      name: "hazelnut shelled",
       wc: "10515"
     },
     {
       category: "CROPS",
-      name: "HAZELNUT WITH SHELL",
+      name: "hazelnut with shell",
       wc: "5258"
     },
     {
       category: "CROPS",
-      name: "HEMPSEED",
+      name: "hempseed",
       wc: "3685"
     },
     {
       category: "CROPS",
-      name: "HOP CONE",
+      name: "hop cone",
       wc: "4065"
     },
     {
       category: "CROPS",
-      name: "HOP EXTRACT",
+      name: "hop extract",
       wc: "16259"
     },
     {
       category: "CROPS",
-      name: "KIWI",
+      name: "kiwi",
       wc: "514"
     },
     {
       category: "CROPS",
-      name: "KOLA NUT",
+      name: "kola nut",
       wc: "23391"
     },
     {
       category: "CROPS",
-      name: "LEMON",
+      name: "lemon",
       wc: "642"
     },
     {
       category: "CROPS",
-      name: "LENTIL",
+      name: "lentil",
       wc: "5874"
     },
     {
       category: "CROPS",
-      name: "LETTUCE",
+      name: "lettuce",
       wc: "237"
     },
     {
       category: "CROPS",
-      name: "LIME",
+      name: "lime",
       wc: "642"
     },
     {
       category: "CROPS",
-      name: "LINSEED",
+      name: "linseed",
       wc: "5168"
     },
     {
       category: "CROPS",
-      name: "LONGABERRY",
+      name: "longaberry",
       wc: "413"
     },
     {
       category: "CROPS",
-      name: "MACE",
+      name: "mace",
       wc: "34319"
     },
     {
       category: "CROPS",
-      name: "MAIZE",
+      name: "maize",
       wc: "1191"
     },
     {
       category: "CROPS",
-      name: "MAIZE GREEN",
+      name: "maize gree ",
       wc: "700"
     },
     {
       category: "CROPS",
-      name: "MANDARIN",
+      name: "mandarin",
       wc: "748"
     },
     {
       category: "CROPS",
-      name: "MANGO",
+      name: "mango",
       wc: "1855"
     },
     {
       category: "CROPS",
-      name: "MANGOSTEEN",
+      name: "mangosteen",
       wc: "1800"
     },
     {
       category: "CROPS",
-      name: "MANIOC",
+      name: "manioc",
       wc: "564"
     },
     {
       category: "CROPS",
-      name: "MILLET",
+      name: "millet",
       wc: "4478"
     },
     {
       category: "CROPS",
-      name: "MIXED NUTS",
+      name: "mixed nuts",
       wc: "9063"
     },
     {
       category: "CROPS",
-      name: "MULBERRY",
+      name: "mulberry",
       wc: "413"
     },
     {
       category: "CROPS",
-      name: "MUSTARD SEED",
+      name: "mustard seed",
       wc: "2809"
     },
     {
       category: "CROPS",
-      name: "NUTMEG",
+      name: "nutmeg",
       wc: "34319"
     },
     {
       category: "CROPS",
-      name: "OAT",
+      name: "oat",
       wc: "1788"
     },
     {
       category: "CROPS",
-      name: "OKRA",
+      name: "okra",
       wc: "576"
     },
     {
       category: "CROPS",
-      name: "OLIVES*",
+      name: "olive",
       wc: "3015"
     },
     {
       category: "CROPS",
-      name: "ONION",
+      name: "onion",
       wc: "290"
     },
     {
       category: "CROPS",
-      name: "ORANGE",
+      name: "orange",
       wc: "654"
     },
     {
       category: "CROPS",
-      name: "PALM NUT",
+      name: "palm nut",
       wc: "2868"
     },
     {
       category: "CROPS",
-      name: "PAPAYA",
+      name: "papaya",
       wc: "460"
     },
     {
       category: "CROPS",
-      name: "PEA",
+      name: "pea",
       wc: "1979"
     },
     {
       category: "CROPS",
-      name: "PEA (fresh)",
+      name: "pea (fresh)",
       wc: "595"
     },
     {
       category: "CROPS",
-      name: "PEACH",
+      name: "peach",
       wc: "910"
     },
     {
       category: "CROPS",
-      name: "PEANUT",
+      name: "peanut",
       wc: "2782"
     },
     {
       category: "CROPS",
-      name: "PEAR",
+      name: "pear",
       wc: "922"
     },
     {
       category: "CROPS",
-      name: "PEPPER",
+      name: "pepper",
       wc: "379"
     },
+    
     {
       category: "CROPS",
-      name: "PEPPER (PIPER SPP.)",
-      wc: "7611"
-    },
-    {
-      category: "CROPS",
-      name: "PEPPERMINT",
+      name: "peppermint",
       wc: "288"
     },
     {
       category: "CROPS",
-      name: "PIGEON PEA",
+      name: "pigeon pea",
       wc: "5494"
     },
     {
       category: "CROPS",
-      name: "PINEAPPLE",
+      name: "pineapple",
       wc: "255"
     },
     {
       category: "CROPS",
-      name: "PISTACHIO",
+      name: "pistachio",
       wc: "11363"
     },
     {
       category: "CROPS",
-      name: "PLANTAIN",
+      name: "plantain",
       wc: "1602"
     },
     {
       category: "CROPS",
-      name: "PLUM",
+      name: "plum",
       wc: "2180"
     },
     {
       category: "CROPS",
-      name: "POPPY SEED",
+      name: "poppy seed",
       wc: "2188"
     },
     {
       category: "CROPS",
-      name: "POTATO",
+      name: "potato",
       wc: "554.8"
     },
     {
       category: "CROPS",
-      name: "PUMPKIN",
+      name: "pumpkin",
       wc: "400"
     },
     {
       category: "CROPS",
-      name: "RAISINS",
+      name: "raisins",
       wc: "2433"
     },
     {
       category: "CROPS",
-      name: "RAPESEED",
+      name: "rapeseed",
       wc: "2271"
     },
     {
       category: "CROPS",
-      name: "RASPBERRY",
+      name: "raspberry",
       wc: "413"
     },
     {
       category: "CROPS",
-      name: "RICE",
+      name: "rice",
       wc: "1597"
     },
     {
       category: "CROPS",
-      name: "RYE",
+      name: "rye",
       wc: "1554"
     },
     {
       category: "CROPS",
-      name: "SAFFRON",
+      name: "saffron",
       wc: "731000"
     },
     {
       category: "CROPS",
-      name: "SESAM SEED",
+      name: "sesame seed",
       wc: "9371"
     },
     {
       category: "CROPS",
-      name: "SHALLOT",
+      name: "shallot",
       wc: "272"
     },
     {
       category: "CROPS",
-      name: "SORGHUM",
+      name: "sorghum",
       wc: "3048"
     },
     {
       category: "CROPS",
-      name: "SOYBEAN",
+      name: "soybean",
       wc: "1816.4"
     },
     {
       category: "CROPS",
-      name: "SPINACH",
+      name: "spinach",
       wc: "292"
     },
     {
       category: "CROPS",
-      name: "SQUASH",
+      name: "squash",
       wc: "336"
     },
     {
       category: "CROPS",
-      name: "STRAWBERRY",
+      name: "strawberry",
       wc: "247.9"
     },
     {
       category: "CROPS",
-      name: "STRING BEAN",
+      name: "string bean",
       wc: "547"
     },
     {
       category: "CROPS",
-      name: "SUGAR BEET",
+      name: "sugar beet",
       wc: "132"
     },
     {
       category: "CROPS",
-      name: "SUGAR CANE",
+      name: "sugar cane",
       wc: "210"
     },
     {
       category: "CROPS",
-      name: "SUNFLOWER SEED",
+      name: "sunflower seed",
       wc: "3366"
     },
     {
       category: "CROPS",
-      name: "SWEET POTATO",
+      name: "sweet potato",
       wc: "383"
     },
     {
       category: "CROPS",
-      name: "TANGERIN",
+      name: "tangerin",
       wc: "748"
     },
     {
       category: "CROPS",
-      name: "TARO",
+      name: "taro",
       wc: "606"
     },
     {
       category: "CROPS",
-      name: "TOMATO",
+      name: "tomato",
       wc: "41"
     },
+  
     {
       category: "CROPS",
-      name: "TOMATO DRIED*",
-      wc: "4276"
-    },
-    {
-      category: "CROPS",
-      name: "TURNIP",
+      name: "turnip",
       wc: "195"
     },
     {
       category: "CROPS",
-      name: "VANILLA BEAN",
+      name: "vanilla bean",
       wc: "126505"
     },
     {
       category: "CROPS",
-      name: "WALNUT SHELLED",
+      name: "walnut shelled",
       wc: "9172.5"
     },
     {
       category: "CROPS",
-      name: "WALNUT WITH SHELL",
+      name: "walnut with shell",
       wc: "4918"
     },
     {
       category: "CROPS",
-      name: "WATERMELON",
+      name: "watermelon",
       wc: "185"
     },
     {
       category: "CROPS",
-      name: "WHEAT",
+      name: "whaat",
       wc: "1639"
     },
     {
       category: "CROPS",
-      name: "YAM",
+      name: "yam",
       wc: "343"
     },
     {
       category: "CROPS",
-      name: "ZUCCHINI",
+      name: "zucchini",
       wc: "336"
     },
     {
       category: "FISHING",
-      name: "BLACK CARP",
+      name: "black carp",
       wc: "2555"
     },
     {
       category: "FISHING",
-      name: "CARP",
+      name: "carp",
       wc: "2364"
     },
     {
       category: "FISHING",
-      name: "COD",
+      name: "cod",
       wc: "2782"
     },
     {
       category: "FISHING",
-      name: "CRUSTACEAN",
+      name: "crustacean",
       wc: "1974"
     },
     {
       category: "FISHING",
-      name: "FLOUNDER",
+      name: "flounder",
       wc: "798"
     },
     {
       category: "FISHING",
-      name: "GILSTHEAD SEABREAM",
+      name: "gilthead seabream",
       wc: "3543.5"
     },
     {
       category: "FISHING",
-      name: "GRASS CARP",
+      name: "grass carp",
       wc: "2229"
     },
     {
       category: "FISHING",
-      name: "GROUPER",
+      name: "grouper",
       wc: "360"
     },
     {
       category: "FISHING",
-      name: "MAJOR CARP",
+      name: "major carp",
       wc: "3808"
     },
     {
       category: "FISHING",
-      name: "MANDARIN FISH",
+      name: "mandarin fish",
       wc: "88"
     },
     {
       category: "FISHING",
-      name: "MILKFISH",
+      name: "milkfish",
       wc: "2471.5"
     },
     {
       category: "FISHING",
-      name: "PANGASIID",
+      name: "pangasiid",
       wc: "1909.5"
     },
     {
       category: "FISHING",
-      name: "PRAWNS GIANT",
+      name: "prawns giant",
       wc: "1738"
     },
     {
       category: "FISHING",
-      name: "RED DRUM",
+      name: "red drum",
       wc: "2202"
     },
     {
       category: "FISHING",
-      name: "SALMON",
+      name: "salmon",
       wc: "2193"
     },
     {
       category: "FISHING",
-      name: "SEABASS",
+      name: "sea bass",
       wc: "6524"
     },
     {
       category: "FISHING",
-      name: "SILVERBARB",
+      name: "silver barb",
       wc: "2861.5"
     },
     {
       category: "FISHING",
-      name: "STURGEON",
+      name: "sturgeon",
       wc: "13420"
     },
     {
       category: "FISHING",
-      name: "TILAPIA",
+      name: "tilapia",
       wc: "2263"
     },
     {
       category: "FISHING",
-      name: "TROUT",
+      name: "trout",
       wc: "2188"
     },
     {
       category: "FISHING",
-      name: "TURBOT",
+      name: "turbot",
       wc: "1504"
     },
     {
       category: "FISHING",
-      name: "WUCHANG BREAM",
+      name: "wuchang bream",
       wc: "10550"
     }
    ];

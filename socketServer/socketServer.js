@@ -22,12 +22,12 @@ const checkForItemCollisions = require('./checkCollisions').checkForItemCollisio
 
 const items = [];
 const settings = {
-    defaultNumberOfOrbs: 100, //number of orbs on the map
+    defaultNumberOfOrbs: 20, //number of orbs on the map
     defaultSpeed: 6, //player speed
     defaultSize: 6, //default player speed
     defaultZoom: 1.5, // as the player gets bigger, zoom needs to go out
-    worldWidth: 5000,
-    worldHeight: 5000,
+    worldWidth: 1000,
+    worldHeight: 1000,
     defaultGenericOrbSize: 5, //smaller than player orbs
     orderDuration: 15
 }

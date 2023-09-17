@@ -38,17 +38,24 @@ const draw = ()=>{
     items.forEach(item=>{
        
         context.beginPath(); //this will start a new path
-        context.fillStyle = item.color
+        // context.fillStyle = item.color
+        context.fillStyle = "white"
         context.arc(item.locX,item.locY,item.radius,0,Math.PI*2);
         context.fill();
+        context.lineWidth = 3; //how wide to draw a line in pixels
+        context.strokeStyle = item.color
+        context.stroke() //
         context.beginPath();
-        context.font = "15px serif";
+        context.font = "bold 15px serif";
         context.fillStyle = "black";
-        context.fillText(item.label, item.locX-2, item.locY);
+        context.textAlign = "center";
+        context.fillText(item.label, item.locX, item.locY-5);
         context.fill();
         context.beginPath();
+        context.font = "bold 20px Courier";
         context.fillStyle = "red";
-        context.fillText(item.wc, item.locX-2, item.locY+10);
+        context.textAlign = "center";
+        context.fillText(item.wc, item.locX, item.locY+8);
         context.fill();
     })
 
