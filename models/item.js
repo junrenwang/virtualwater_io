@@ -7,7 +7,7 @@ class item{
         this.category = category
         this.wc = (wc/1000).toFixed(2)
         this.color = color 
-        this.radius = radius
+        this.radius = radius*2
         this.locX = Math.floor((Math.random()* (0.8 - 0.2) + 0.2) * settings.worldWidth)
         this.locY = Math.floor((Math.random()* (0.8 - 0.2) + 0.2)  * settings.worldHeight) 
     }

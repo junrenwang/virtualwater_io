@@ -39,7 +39,7 @@ const draw = ()=>{
        
         context.beginPath(); //this will start a new path
         context.fillStyle = item.color
-        context.arc(item.locX,item.locY,item.radius*2,0,Math.PI*2);
+        context.arc(item.locX,item.locY,item.radius,0,Math.PI*2);
         context.fill();
         context.beginPath();
         context.font = "15px serif";
