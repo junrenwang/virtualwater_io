@@ -60,18 +60,23 @@ socket.on('updateLeaderBoard',leaderBoardArray=>{
 
         }
     })
-    if (leaderBoardArray.sort((a,b)=>{
+   
+  
+    
+    if((leaderBoardArray.sort((a,b)=>{
         return b.wc - a.wc;
-    })[0].wc <= 0){
+    }).find(p=>p.name)).wc<=0){
+
         p = leaderBoardArray.sort((a,b)=>{
             return b.score - a.score;
-        })[0]
+        }).find(p=>p.name)
         document.getElementById("result-text").innerHTML = `All players have run out of water! The winner is ${p.name}. The winner completed ${p.score} orders!`
         spawnModal.show();
 
         socket.disconnect();
 
     }
+        
  
     if (document.getElementById("sort-order").classList.contains('active')){
         leaderBoardArray.sort((a,b)=>{

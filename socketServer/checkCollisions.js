@@ -34,7 +34,6 @@ const checkForItemCollisions = (pData,pConfig, items, currentorder)=>{
                         pData.score++;
                         serve = true;
                         pData.instruct = "brilliant!"
-             
                     }
                     else{
                         pData.instruct = "Wrong Item!"
